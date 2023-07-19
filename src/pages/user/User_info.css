@@ -1,0 +1,66 @@
+/* Container principal */
+.container-info-usuario{
+    border-radius: 20px;
+    background-color: bisque;
+    align-items: center;
+}
+
+/* CSS Columna izauierda */
+.columna-izq-info-usuario{
+    border-radius: 20px;
+    height: fit-content;
+    background-color:#2E3532;
+}
+
+.texto-panel-izq-cuenta{
+    color: white;
+}
+.links-panel-info-usuario li:not(:last-child) {
+    border-bottom: 1px solid #ccc;
+}
+
+/* CSS columna derecha */
+
+.form-info-cuenta{
+    width:auto;
+    border-radius: 20px;
+    background-color:#7A8B99;
+    padding: 20px;
+}
+.form-direccion-facturacion-usuario{
+    width:auto;
+    border-radius: 20px;
+    background-color: #7A8B99;
+    padding: 20px;
+}
+.form-direccion-envio-usuario{
+    width:auto;
+    border-radius: 20px;
+    background-color: #7A8B99;
+    padding: 20px;
+}
+.text-label-form-user{
+    display: flex;
+    align-items: center;
+}
+.text-label{
+    margin-right: 10px;
+    flex: 1;
+    text-align: right;
+}
+.casilla-form-user-info{
+    flex: 4;
+}
+
+.botones-info-usuario{
+    display: flex;
+    justify-content: flex-end;
+  }
+.botones-direccion-facturacion-usuario{
+    display: flex;
+    justify-content: flex-end;
+}
+.botones-direccion-envio-usuario{
+    display: flex;
+    justify-content: flex-end;
+}
